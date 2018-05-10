@@ -1,0 +1,97 @@
+
+/*====================== Custom, iPhone Retina ==========================*/ 
+@media only screen and (min-width : 320px){
+
+	/* ============Open Menu ============*/
+	li{
+		border-bottom: 1.5px solid white;
+		display: block;
+		padding: 1em 1em;
+	}
+
+}
+
+/*===================== Extra Small Devices, Phones ===================*/ 
+@media only screen and (min-width : 480px) { 
+
+	 /* ============Open Menu ============*/
+	 li{
+	 	display: inline-block;
+	 	border: none;
+	 	padding: 2em 1em;
+	 }
+	 ul .f-right{
+    	float: right;
+	}
+}	
+
+/*================================== Small Devices, Tablets ===================================================*/ 
+@media only screen and (min-width : 768px) { 
+
+   /* ============Open Menu ============*/
+    .f-left{
+   	margin-left: 3em;
+   }
+   .f-right{
+   	margin-right: 3em;
+   }
+
+   /* =====================Open Banner========================*/
+	  .banner p{ 
+  		border-bottom: 2px solid gray;
+	   }
+}
+	
+/*===================================== Medium Devices, Desktops =========================================*/ 
+@media only screen and (min-width : 992px) { 
+
+  /* ============Open Menu ============*/
+   ul{
+   	background: none;
+   }
+   li a{
+   	color: black;
+   }
+   li a:hover{
+    border-bottom: 2px solid gray;
+}
+
+/* =====================Open Banner========================*/
+   .banner{
+   	background: url("../assets/lodging.png") no-repeat;
+   	width: 100%;
+   	height: 500px;
+   	color: white;
+   }
+   .banner h1{
+   	  padding-top: 130px;
+   	  padding-left: 120px;
+   }
+   .banner p{
+   	padding-left: 120px;
+   	padding-top: 0;
+   	border: none;
+   }
+/* =================== Open getting===============================*/
+   .content{
+   	background-color: gray;
+   }
+   .getting p{
+   	padding-top: 20px;
+   	border: none;
+   }
+   /*===== Open image  ===*/
+   img{ 
+    margin-left: 2em;
+    margin-bottom: 30px; 
+   }
+   /*====Open Footer===*/
+   .footer{
+   	background-color: Gainsboro;
+   }
+   .f-content{
+   	margin-left: 2em; 
+   	margin-bottom: 4em;
+   }
+}
+
